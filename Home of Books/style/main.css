@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.Caixa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-image: url(../img/Papel.jpg);
+    background-repeat: repeat;
+}
+
+.Logo {
+    color: #010f80;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+
+i {
+    color: #010f80;
+    cursor: pointer;
+}
+
+menu a {
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #010f80;
+    text-transform: uppercase;
+}
+
+menu a:hover {
+    background-color: #010f80;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+ul {
+    padding: 15px;
+    list-style-type: none;
+}
+
+menu {
+    display: none;
+    border-top: solid #010f80 3px;
+    background-image: url(../img/Papel.jpg);
+    background-repeat: repeat;
+}
+
+main {
+    background-color: #010f80;
+    padding: 0;
+    margin: 0;
+}
+
+.Boasvindas img {
+    width: 100%;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 67px;
+}
+
+.bg{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 170px;
+    margin-top: 20px;
+    position: static;
+  }
+  
+  .ribbonCut5{
+    position: static;
+    margin: 5px 0 0 137px;
+    border-left: 10px solid transparent;
+      border-right: 0px solid #a4d5bd;
+      border-top: 12px solid #a4d5bd;
+  }
+  
+  .ribbonCut6{
+    position: static;
+    margin: 0 0 0 127px;
+    height: 5px;
+    width: 20px;
+    background: #a4d5bd;
+  }
+  
+  .book5{
+    position: relative;
+    height:40px;
+    width: 145px;
+    margin-left:41.5vw;
+    background: #0073a8;  
+  }
+  
+  .book5:before,
+  .book5:after{
+    position: absolute;
+    content: '';
+  }
+  
+  .book5:before{
+    height: 40px;
+    width: 80px;
+    left: 12px;
+    border-left: 20px double #fff;
+    border-right: 20px double #fff;
+  }
+  
+  .book5:after{
+     background: white;
+    margin: 5% 0 0 39%;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .book6{
+    position: relative;
+    height:30px;
+    width:165px;
+    border: 5px solid #622d18;
+    margin-left:40.5vw;
+    border-radius: 0 10px 10px 0;
+    border-left-style: none;
+    background: #fffff0;
+    
+  }
+  
+  
+  .bookCut6{ 
+    background: #a0d8ef;
+    width: 5px;
+    height: 30px;
+  }
+  
+  .ribbon6{
+    height:25px;
+    width:20px;
+    position: absolute;
+    background: #a4d5bd;
+    margin: 14px 0 0 105px;
+  }
+  
+  .book7{
+    position: relative;
+    height:40px;
+    width:200px;
+    margin-left:39vw;
+    margin-bottom: 3px;
+    background: #fcc800;  
+  }
+  
+  .book7:before,
+  .book7:after{
+    position: absolute;
+    content: "";
+  }
+  
+  .book7:before{
+    height: 40px;
+    width: 98px;
+    left: 10px;
+    border-left: 20px double #fff;
+  }
+  
+  .book7:after{
+     background: white;
+    margin: 4% 0 0 82%;
+    width: 22px;
+    height: 22px;
+    border-radius: 12px;
+  }
+  
+  .ribbonCut7{
+    position: absolute;
+    margin: 5px 0 0 125px;
+    border-left: 0px solid #a4d5bd;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #a4d5bd;
+  }
+  
+  .ribbonCut8{
+    position: absolute;
+    margin: 5px 0 0 135px;
+    border-left: 10px solid transparent;
+    border-right: 0px solid #a4d5bd;
+    border-top: 12px solid #a4d5bd;
+  }
+  
+  .ribbonCut9{
+    position: absolute;
+    margin: 0 0 0 125px;
+    height: 5px;
+    width: 20px;
+    background: #a4d5bd;
+  }
+
+  .Parcerias {
+    background-color: white;
+    padding: 10px;
+    color: #010f80;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .Parcerias img {
+    width: 200px;
+  }
+
+  .Redes {
+    font-size: 40px;
+  }
+
+  .fa {
+    background-color: #010f80;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: black;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.Space {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    animation: fall 10s 1 ease-in-out;
+}
+
+.Space i{
+    color: white;
+    animation: changing 10s infinite ease-in-out;
+    box-shadow: #fcc800;
+}
+
+@keyframes changing {
+    0%  {
+       color: white;
+       transform: rotate(0deg);
+    }
+
+    25% {
+        color: #fcc800;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        color: #fcc800;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        color: #fcc800;
+        transform: rotate(270deg);
+    }
+
+    100% {
+        color: white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-1300px);
+    }
+}
+
+@media (min-width: 390px) and (min-height: 844px) {
+  
+  .Logo {
+    font-size: 40px;
+  }
+  
+  p {
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .Boasvindas img {
+    margin-top: 220px;
+  }
+
+  .Parcerias img {
+    width: 220px;
+  }
+}
+
+.Recado {
+  margin-bottom: 20px;
+
+}
+
+@media (min-width: 360px) and (min-height: 740px) {
+  p {
+    font-size: 22px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 412px) and (min-height: 915px) {
+  .Logo {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1280px) and (min-height: 800px) {
+      .Logo {
+        font-size: 40px;
+      }
+  
+      .Boasvindas img {
+        width: 50%;
+        margin-left: 320px;
+      }
+
+      .bg {
+        margin-right: 500px;
+      }
+
+      .Parcerias img {
+        width: 300px;
+      }
+
+      ul a {
+        font-size: 24px;
+      }
+  }
+
+  @media (min-width: 820px) and (min-height: 1180px){
+    .Logo {
+      font-size: 60px;
+    }
+  
+
+  ul a {
+    font-size: 25px;
+  }
+
+  .Boasvindas img {
+    margin-top: 300px;
+  }
+
+  p {
+    font-size: 35px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .bg {
+    margin-right: 320px;
+  }
+
+  .Parcerias img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 280px) and (min-height: 653px) {
+  .bg {
+    margin-left: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .Boasvindas img {
+    margin-top: 220px;
+  }
+
+  .Parcerias {
+    gap: 10px;
+  }
+
+}
+
+@media (min-width: 412px) and (min-height: 914px) {
+  .Logo {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .bg {
+    margin-right: 180px;
+  }
+
+  .Parcerias img {
+    width: 280px;
+  }
+
+  ul a {
+    font-size: 20px;
+  }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .Boasvindas img {
+    width: 35%;
+    margin-left: 500px;
+    margin-top: 190px;
+  }
+
+  .Parcerias {
+    justify-content: space-around;
+  }
+
+  .Parcerias img {
+    width: 20%;
+  }
+
+  .Parcerias a {
+    margin-right: 100px;
+    font-size: 50px;
+  }
+
+  .bg {
+    margin-right: 660px;
+  }
+
+  ul {
+    gap: 30px;
+  }
+}
